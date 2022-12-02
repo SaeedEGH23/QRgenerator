@@ -1,0 +1,21 @@
+{
+  "name": "qrgenerator",
+  "version": "1.0.0",
+  "description": "generate qr in png and any other ways from a text file ",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qr",
+    "nodejs",
+    "png"
+  ],
+  "type": "module",
+  "author": "saeed ghorbaninezhad",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "qrcode": "^1.5.1"
+  }
+}
