@@ -1,5 +1,5 @@
-import generator from "./generate.mjs";
-import fetchFile from "./readfile.mjs";
+import generator from "./src/generate.mjs";
+import fetchFile from "./src/readfile.mjs";
 
 const filePath = "./links.txt";
 
