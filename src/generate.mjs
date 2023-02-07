@@ -2,9 +2,9 @@ import QRCode from "qrcode";
 
 let qr;
 let stringdata = [];
-let namePath = "hamed-ham-9-";
+// let namePath = "hamed-ham-9-";
 
-const generator = async function generate(data) {
+const generator = async function generate(data, namePath) {
   console.log(data);
   qr = data.split("\n");
   if (qr[qr.length - 1] == "") {
