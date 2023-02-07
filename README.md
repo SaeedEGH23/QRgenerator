@@ -9,7 +9,7 @@ A project to generate QR codes from a text file filled with links by using NODEJ
 The project generates QR codes from a text file filled with links. Each line in the text file must contain a single link, and line breaks are used as separators to generate new QR codes.
 
 ## Configuration
-To set the output format of the generated QR codes and the path to the links.txt file, you need to set up the environment variables in a .env file.
+To set the output pattern name of the generated QR codes and the path to the links.txt file, you need to set up the environment variables in a .env file.
 
 ## Usage
 After editing the links.txt file, you can run the following command in the app directory to generate the QR codes:
