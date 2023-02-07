@@ -14,7 +14,7 @@ To set the output pattern name of the generated QR codes and the path to the lin
 ## Usage
 After editing the links.txt file, you can run the following command in the app directory to generate the QR codes:
 
-node app.mjs
+`node app.mjs`
 
 
 ## License
